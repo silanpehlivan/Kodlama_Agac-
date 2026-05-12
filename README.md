@@ -1,10 +1,12 @@
 📈 Kodlama Ağacı (İkili Arama Ağacı Uygulaması)
+---
 
 Bu proje, C# dili kullanılarak geliştirilmiş basit bir ikili arama ağacı (Binary Search Tree - BST) uygulamasıdır. Kullanıcıların sayısal değerler ekleyebildiği ve bu değerleri sıralı bir şekilde görüntüleyebildiği konsol tabanlı bir yapıdır. Ağaç veri yapısının temel mantığını ve çalışma prensibini göstermeyi amaçlamaktadır.
 
 ---
 
 🎯 Projenin Amacı
+---
 
 Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl oluşturulduğunu ve yönetildiğini göstermektir. Bu kapsamda:
 
@@ -16,6 +18,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 ---
 
 📚 İkili Arama Ağacı Nedir?
+---
 
 İkili arama ağacı (Binary Search Tree - BST), her düğümün en fazla iki çocuk düğüme sahip olduğu ve belirli bir sıralama kuralına göre organize edilen bir veri yapısıdır.
 
@@ -34,6 +37,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 ---
 
 ⚙️ Teknik Detaylar
+---
 
 | Özellik | Açıklama |
 |----------|----------|
@@ -46,6 +50,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 ---
 
 💻 Implementasyon Detayları
+---
 
 Projenin ana yapısı `AgacDugumu` ve `KodlamaAgaci` sınıfları üzerine kurulmuştur.
 
@@ -90,6 +95,7 @@ Main metodu içerisinde kullanıcıdan alınan değerler ağaca eklenir ve ardı
 ---
 
 🚀 Kurulum ve Çalıştırma
+---
 
 1. Projeyi indirip klasöre çıkarın  
 2. `Kodlama_Agacı.sln` dosyasını Visual Studio ile açın  
@@ -99,6 +105,7 @@ Main metodu içerisinde kullanıcıdan alınan değerler ağaca eklenir ve ardı
 ---
 
 📂 Proje Yapısı
+---
 
 ```
 Kodlama_Agaci-master/
@@ -113,12 +120,10 @@ Kodlama_Agaci-master/
 
 ---
 
-📜 Lisans
+## 📜 Lisans
 
-Bu proje MIT Lisansı kapsamında lisanslanmıştır. Detaylar LICENSE dosyasında yer almaktadır.
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
----
-
-👩‍💻 Yazar
+## 👩‍💻 Geliştirici
 
 Şilan Pehlivan

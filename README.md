@@ -1,11 +1,37 @@
-📈 Kodlama Ağacı (İkili Arama Ağacı Uygulaması)
+<div align="center">
+
+# İkili Arama Ağacı
+
+**Binary Search Tree**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Sayısal değerleri ikili arama ağacına ekleyen ve in-order gezintiyle sıralı biçimde gösteren konsol uygulaması.
+
+</div>
+
 ---
+
+## Öne Çıkanlar
+
+- Düğüm ve ağaç sınıfları
+- Özyinelemeli eleman ekleme
+- Sıralı ağaç gezintisi
+
+## Teknolojiler
+
+C# · .NET Framework
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, C# dili kullanılarak geliştirilmiş basit bir ikili arama ağacı (Binary Search Tree - BST) uygulamasıdır. Kullanıcıların sayısal değerler ekleyebildiği ve bu değerleri sıralı bir şekilde görüntüleyebildiği konsol tabanlı bir yapıdır. Ağaç veri yapısının temel mantığını ve çalışma prensibini göstermeyi amaçlamaktadır.
 
 ---
 
-🎯 Projenin Amacı
+ Projenin Amacı
 ---
 
 Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl oluşturulduğunu ve yönetildiğini göstermektir. Bu kapsamda:
@@ -17,7 +43,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 
 ---
 
-📚 İkili Arama Ağacı Nedir?
+ İkili Arama Ağacı Nedir?
 ---
 
 İkili arama ağacı (Binary Search Tree - BST), her düğümün en fazla iki çocuk düğüme sahip olduğu ve belirli bir sıralama kuralına göre organize edilen bir veri yapısıdır.
@@ -36,7 +62,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 
 ---
 
-⚙️ Teknik Detaylar
+ Teknik Detaylar
 ---
 
 | Özellik | Açıklama |
@@ -49,7 +75,7 @@ Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl ol
 
 ---
 
-💻 Implementasyon Detayları
+ Implementasyon Detayları
 ---
 
 Projenin ana yapısı `AgacDugumu` ve `KodlamaAgaci` sınıfları üzerine kurulmuştur.
@@ -59,7 +85,7 @@ Projenin ana yapısı `AgacDugumu` ve `KodlamaAgaci` sınıfları üzerine kurul
 
 ---
 
-### 📌 Ekleme (Insertion) Metodu
+### Ekleme (Insertion) Metodu
 
 ```csharp
 public void Ekle(int deger)
@@ -94,7 +120,7 @@ Main metodu içerisinde kullanıcıdan alınan değerler ağaca eklenir ve ardı
 
 ---
 
-🚀 Kurulum ve Çalıştırma
+ Kurulum ve Çalıştırma
 ---
 
 1. Projeyi indirip klasöre çıkarın  
@@ -104,7 +130,7 @@ Main metodu içerisinde kullanıcıdan alınan değerler ağaca eklenir ve ardı
 
 ---
 
-📂 Proje Yapısı
+ Proje Yapısı
 ---
 
 ```
@@ -120,10 +146,15 @@ Kodlama_Agaci-master/
 
 ---
 
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+</details>
 
-## 👩‍💻 Geliştirici
+---
 
-Şilan PEHLİVAN
+<div align="center">
+
+**© 2024 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>

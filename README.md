@@ -24,6 +24,18 @@ Sayısal değerleri ikili arama ağacına ekleyen ve in-order gezintiyle sıral�
 
 C# · .NET Framework
 
+## Teknik yaklaşım
+
+Değerler kökten başlayarak küçükse sola, büyükse sağa eklenir. In-order gezinti sol alt ağaç → kök → sağ alt ağaç sırasıyla artan çıktı üretir.
+
+## Kodu incelemeye başlayın
+
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Ağaç dengelenmez; sıralı girdilerde yükseklik artabilir. Eşit değerler ekleme metodu tarafından tekrar düğüm olarak tutulmaz.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 

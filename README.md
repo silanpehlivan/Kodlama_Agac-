@@ -2,17 +2,32 @@
 
 # İkili Arama Ağacı
 
-**Binary Search Tree**
+### Verileri ağaca yerleştir, sıralı sonucu gör.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Sayısal değerleri ikili arama ağacına ekleyen ve in-order gezintiyle sıralı biçimde gösteren konsol uygulaması.
+
+**Binary Search Tree**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/Kodlama_Agac-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Düğüm ve ağaç sınıfları
+- **02** · Özyinelemeli eleman ekleme
+- **03** · Sıralı ağaç gezintisi
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,20 +39,19 @@ Sayısal değerleri ikili arama ağacına ekleyen ve in-order gezintiyle sıral�
 
 C# · .NET Framework
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Değerler kökten başlayarak küçükse sola, büyükse sağa eklenir. In-order gezinti sol alt ağaç → kök → sağ alt ağaç sırasıyla artan çıktı üretir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Program.cs](Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Ağaç dengelenmez; sıralı girdilerde yükseklik artabilir. Eşit değerler ekleme metodu tarafından tekrar düğüm olarak tutulmaz.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, C# dili kullanılarak geliştirilmiş basit bir ikili arama ağacı (Binary Search Tree - BST) uygulamasıdır. Kullanıcıların sayısal değerler ekleyebildiği ve bu değerleri sıralı bir şekilde görüntüleyebildiği konsol tabanlı bir yapıdır. Ağaç veri yapısının temel mantığını ve çalışma prensibini göstermeyi amaçlamaktadır.
 
@@ -157,6 +171,8 @@ Kodlama_Agaci-master/
 ```
 
 ---
+
+
 
 
 </details>

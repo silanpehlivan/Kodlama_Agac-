@@ -2,187 +2,30 @@
 
 # İkili Arama Ağacı
 
-### Verileri ağaca yerleştir, sıralı sonucu gör.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3500&pause=2200&color=38bdf8&background=0D1117&center=true&vCenter=true&width=760&height=76&lines=Verileri%20a%C4%9Faca%20yerle%C5%9Ftir%2C%20s%C4%B1ral%C4%B1%20sonucu%20g%C3%B6r." alt="Verileri ağaca yerleştir, sıralı sonucu gör." width="760" />
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
-![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=for-the-badge)
-[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
+<br />
+
+<img alt="C#" src="https://img.shields.io/badge/C%23-38bdf8?style=for-the-badge" />
+<img alt=".NET Framework" src="https://img.shields.io/badge/.NET%20Framework-2563eb?style=for-the-badge" />
+
+<br /><br />
 
 Sayısal değerleri ikili arama ağacına ekleyen ve in-order gezintiyle sıralı biçimde gösteren konsol uygulaması.
 
-**Binary Search Tree**
+<br />
 
-[Projeyi keşfet](https://github.com/silanpehlivan/Kodlama_Agac-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
+**Düğüm ve ağaç sınıfları** &nbsp; · &nbsp; **Özyinelemeli eleman ekleme** &nbsp; · &nbsp; **Sıralı ağaç gezintisi**
+
+<br /><br />
+
+[![Projeyi keşfet](https://img.shields.io/badge/PROJEYİ_KEŞFET-2563eb?style=for-the-badge)](https://github.com/silanpehlivan/Kodlama_Agac-/tree/master)
+[![Kurulum](https://img.shields.io/badge/KURULUM_&_TEKNİK_NOTLAR-334155?style=for-the-badge)](PROJECT_GUIDE.md)
 
 </div>
 
 ---
 
-## İçeride neler var?
-
-- **01** · Düğüm ve ağaç sınıfları
-- **02** · Özyinelemeli eleman ekleme
-- **03** · Sıralı ağaç gezintisi
-
-## Projeyi çalıştırmak ve incelemek
-
-<details>
-<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
-
-## Öne Çıkanlar
-
-- Düğüm ve ağaç sınıfları
-- Özyinelemeli eleman ekleme
-- Sıralı ağaç gezintisi
-
-## Teknolojiler
-
-C# · .NET Framework
-
-### Teknik yaklaşım
-
-Değerler kökten başlayarak küçükse sola, büyükse sağa eklenir. In-order gezinti sol alt ağaç → kök → sağ alt ağaç sırasıyla artan çıktı üretir.
-
-### Kodu incelemeye başlayın
-
-- [Program.cs](Program.cs)
-
-### Kapsam ve sınırlar
-
-Ağaç dengelenmez; sıralı girdilerde yükseklik artabilir. Eşit değerler ekleme metodu tarafından tekrar düğüm olarak tutulmaz.
-
-
-
-Bu proje, C# dili kullanılarak geliştirilmiş basit bir ikili arama ağacı (Binary Search Tree - BST) uygulamasıdır. Kullanıcıların sayısal değerler ekleyebildiği ve bu değerleri sıralı bir şekilde görüntüleyebildiği konsol tabanlı bir yapıdır. Ağaç veri yapısının temel mantığını ve çalışma prensibini göstermeyi amaçlamaktadır.
-
----
-
- Projenin Amacı
----
-
-Bu projenin temel amacı, ikili arama ağacı veri yapısının C# ile nasıl oluşturulduğunu ve yönetildiğini göstermektir. Bu kapsamda:
-
-- İkili arama ağacına eleman ekleme işlemi gösterilir  
-- Sıralı gezinti (in-order traversal) mantığı uygulanır  
-- Ağaç veri yapısının çalışma prensibi anlaşılır  
-- Nesne yönelimli programlama pratiği geliştirilir  
-
----
-
- İkili Arama Ağacı Nedir?
----
-
-İkili arama ağacı (Binary Search Tree - BST), her düğümün en fazla iki çocuk düğüme sahip olduğu ve belirli bir sıralama kuralına göre organize edilen bir veri yapısıdır.
-
-### Temel Kurallar:
-
-1. Sol alt ağaçtaki tüm değerler, düğüm değerinden küçüktür  
-2. Sağ alt ağaçtaki tüm değerler, düğüm değerinden büyüktür  
-3. Her düğüm en fazla iki çocuk düğüme sahiptir  
-
-### Avantajları:
-
-- Veri arama işlemleri hızlıdır (ortalama O(log n))  
-- Veri sıralı şekilde tutulabilir  
-- Dinamik veri yapısıdır (boyut esnek)  
-
----
-
- Teknik Detaylar
----
-
-| Özellik | Açıklama |
-|----------|----------|
-| Dil | C# |
-| Platform | .NET Framework |
-| Paradigma | Nesne Yönelimli Programlama (OOP) |
-| Uygulama Türü | Konsol Uygulaması |
-| IDE | Visual Studio |
-
----
-
- Implementasyon Detayları
----
-
-Projenin ana yapısı `AgacDugumu` ve `KodlamaAgaci` sınıfları üzerine kurulmuştur.
-
-- `AgacDugumu`: Ağacın her bir düğümünü temsil eder  
-- `KodlamaAgaci`: Ekleme ve sıralı gezinti işlemlerini yönetir  
-
----
-
-### Ekleme (Insertion) Metodu
-
-```csharp
-public void Ekle(int deger)
-{
-    Kok = EkleRec(Kok, deger);
-}
-
-private AgacDugumu EkleRec(AgacDugumu kok, int deger)
-{
-    if (kok == null)
-    {
-        kok = new AgacDugumu(deger);
-        return kok;
-    }
-
-    if (deger < kok.Deger)
-    {
-        kok.Sol = EkleRec(kok.Sol, deger);
-    }
-    else if (deger > kok.Deger)
-    {
-        kok.Sag = EkleRec(kok.Sag, deger);
-    }
-
-    return kok;
-}
-```
-
----
-
-Main metodu içerisinde kullanıcıdan alınan değerler ağaca eklenir ve ardından sıralı gezinti ile ekrana yazdırılır.
-
----
-
- Kurulum ve Çalıştırma
----
-
-1. Projeyi indirip klasöre çıkarın  
-2. `Kodlama_Agacı.sln` dosyasını Visual Studio ile açın  
-3. Projeyi derleyin (Build Solution)  
-4. Uygulamayı çalıştırın (F5 veya Start)  
-
----
-
- Proje Yapısı
----
-
-```
-Kodlama_Agaci-master/
-├── App.config
-├── Kodlama_Agacı.csproj
-├── Kodlama_Agacı.sln
-├── LICENSE
-├── Program.cs
-└── Properties/
-    └── AssemblyInfo.cs
-```
-
----
-
-
-
-
-</details>
-
----
-
 <div align="center">
-
-**© 2024 Şilan PEHLİVAN**
-
-Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
-
+<sub>© 2024 Şilan PEHLİVAN · <a href="LICENSE">MIT lisansı</a></sub>
 </div>
